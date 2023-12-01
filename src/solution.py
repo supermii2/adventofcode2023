@@ -1,4 +1,4 @@
-class Solution():
+class Solution:
     def __init__(self, solver_function):
         self.f = solver_function
 
