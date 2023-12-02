@@ -6,7 +6,6 @@ from src.utils import split_by_nextline
 def day1_main(input_string):
     calibration_strings = split_by_nextline(input_string)
     filtered_calibration_strings = [re.sub("[^0-9]", "", s) for s in calibration_strings]
-
     return sum([int(s[0] + s[-1]) for s in filtered_calibration_strings])
 
 
@@ -47,5 +46,5 @@ def day1_bonus(input_string):
 
 
 if __name__ == "__main__":
-    # Solution(day1_main).solve()
+    Solution(day1_main).solve()
     Solution(day1_bonus).solve()
