@@ -1,4 +1,4 @@
-from solution import Solution
+from src.solution import Solution
 
 
 def dayX_main(input_string):
