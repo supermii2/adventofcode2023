@@ -66,7 +66,7 @@ def day5_bonus(input_string):
                     new_seeds.append([seed_range[0] + a, x2 + a])
                 elif x1 >= seed_range[0] and x2 <= seed_range[1]:
                     a = cond[0] - cond[1]
-                    new_seeds.append([x1 + a, x2+ a])
+                    new_seeds.append([x1 + a, x2 + a])
                 elif x1 <= seed_range[1] <= x2:
                     a = cond[0] - cond[1]
                     new_seeds.append([x1 + a, seed_range[1] + a])
